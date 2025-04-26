@@ -4904,3 +4904,8 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 .carousel-next {
 	right: 10px;
 }
+.highlight-text {
+    display: block; /* Ép "Đừng Bỏ Lỡ!" xuống dòng */
+    color: rgba(39, 3, 3, 0.774); /* Tùy chỉnh màu để nổi bật, nếu muốn */
+    margin-top: 0.5em; /* Tạo khoảng cách với dòng trên */
+}
