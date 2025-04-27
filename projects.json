@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Airdrop Dự án Boundless",
+        "date": "April 27, 2025",
+        "description": "Tham gia ngay dự án airdrop Boundless, cơ hội vàng để sở hữu token độc quyền từ dự án blockchain đầy tiềm năng!",
+        "main_image": "boundless/boundless.jpg",
+        "requirements": [
+            {"label": "Yêu cầu", "value": "Tham gia Discord, follow Twitter"},
+            {"label": "Phần thưởng", "value": "Token dự án"},
+            {"label": "Link tham gia", "value": "<a href='https://discord.com/invite/boundlessxyz'>Discord boundless</a>"}
+        ],
+        "instructions": [
+            "Truy cập link discord của dự án <a href='https://discord.com/invite/boundlessxyz'>Discord boundless</a>",
+            {
+                "image": "pic01.jpg",
+                "alt": "Hướng dẫn Discord Boundless",
+                "caption": "Chú thích: Ảnh chụp màn hình kênh Discord Boundless"
+            },
+            "Hiện tại dự án mới ra discord cho anh em cày role, có thông tin mới mình sẽ update sau"
+        ],
+        "learn_more_url": "https://docs.beboundless.xyz/developers/what"
+    },
+    {
+        "id": 2,
+        "title": "Airdrop Dự án Recall",
+        "date": "April 26, 2025",
+        "description": "Tham gia ngay dự án airdrop Recall, cơ hội vàng để sở hữu token độc quyền từ dự án blockchain đầy tiềm năng!",
+        "main_image": "recall/RECALL.png",
+        "requirements": [
+            {"label": "Yêu cầu", "value": "Tham gia Testnet, chiến dịch Galxe, Zealy, tham gia Discord, follow Twitter"},
+            {"label": "Phần thưởng", "value": "Token dự án"},
+            {"label": "Link tham gia", "value": "<a href='https://boost.absinthe.network/recall/account'>boost.absinthe.network</a>"}
+        ],
+        "instructions": [
+            "Truy cập <a href='https://boost.absinthe.network/recall/account'>boost.absinthe.network</a>, nhập ref code: 36fe7ef1",
+            {
+                "image": "recall/screenshot.jpg",
+                "alt": "Hướng dẫn Galxe Quest",
+                "caption": "Chú thích: Ảnh chụp màn hình quest Galxe"
+            },
+            "Hoàn thành các Quest Galxe, Zealy bên dưới"
+        ],
+        "learn_more_url": "https://recall.network/"
+    },
+    {
+        "id": 3,
+        "title": "Airdrop Dự án Billions",
+        "date": "April 25, 2025",
+        "description": "Tham gia ngay dự án airdrop Billions, cơ hội vàng để sở hữu token độc quyền từ dự án blockchain đầy tiềm năng!",
+        "main_image": "billions/billions.png",
+        "requirements": [
+            {"label": "Yêu cầu", "value": "Tham gia nhiệm vụ kiếm Power, cày role Discord"},
+            {"label": "Phần thưởng", "value": "Token dự án"},
+            {"label": "Link tham gia", "value": "<a href='https://signup.billions.network?rc=WROJALHT'>signup.billions.network</a>"}
+        ],
+        "instructions": [
+            "Truy cập <a href='https://signup.billions.network?rc=WROJALHT'>signup.billions.network</a>",
+            "Hoàn thành các nhiệm vụ đơn giản",
+            "Truy cập cày role Discord dự án <a href='https://discord.com/invite/billions-ntwk'>Discord Billions</a>",
+            "------Update------"
+        ],
+        "learn_more_url": "https://signup.billions.network?rc=WROJALHT"
+    }
+]

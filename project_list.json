@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Airdrop Dự án Boundless",
+        "date": "April 27, 2025",
+        "image": "images/boundless/boundless.jpg",
+        "shortDesc": "Tham gia ngay dự án airdrop Boundless, cơ hội vàng để sở hữu token độc quyền từ dự án blockchain đầy tiềm năng!",
+        "detailsUrl": "projects/boundless.html"
+    },
+    {
+        "id": 2,
+        "title": "Airdrop Dự án Recall",
+        "date": "April 26, 2025",
+        "image": "images/recall/RECALL.png",
+        "shortDesc": "Tham gia ngay dự án airdrop Recall, cơ hội vàng để sở hữu token độc quyền từ dự án blockchain đầy tiềm năng!",
+        "detailsUrl": "projects/recall.html"
+    },
+    {
+        "id": 3,
+        "title": "Airdrop Dự án Billions",
+        "date": "April 25, 2025",
+        "image": "images/billions/billions.png",
+        "shortDesc": "Tham gia ngay dự án airdrop Billions, cơ hội vàng để sở hữu token độc quyền từ dự án blockchain đầy tiềm năng!",
+        "detailsUrl": "projects/billions.html"
+    }
+]
