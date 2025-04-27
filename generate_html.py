@@ -21,20 +21,36 @@ for project in projects:
     )
 
     # Xử lý instructions
-    instructions_html = "<ol>"
+    instructions_html = ""
+    counter = 1  # Biến đếm số thứ tự
+    is_first_ol = True  # Theo dõi xem có đang trong <ol> đầu tiên không
+
     for instr in project["instructions"]:
         if isinstance(instr, dict):
+            # Đóng <ol> nếu đang mở
+            if not is_first_ol:
+                instructions_html += "</ol>"
+            # Thêm div cho ảnh
             instructions_html += (
-                '<li style="list-style-type: none;">'
                 '<div style="text-align: center;">'
                 f'<img src="../images/{instr["image"]}" alt="{instr["alt"]}" style="max-width: 100%; height: auto;" />'
                 f'<p style="font-style: italic; color: #666; font-size: 0.9em; margin-top: 5px; margin-bottom: 0;">{instr["caption"]}</p>'
                 '</div>'
-                '</li>'
             )
+            # Mở <ol> mới với số bắt đầu phù hợp
+            instructions_html += f'<ol start="{counter}">'
+            is_first_ol = False
         else:
+            # Nếu là mục đầu tiên hoặc sau ảnh, mở <ol> nếu cần
+            if is_first_ol:
+                instructions_html += '<ol>'
+                is_first_ol = False
             instructions_html += f"<li>{instr}</li>"
-    instructions_html += "</ol>"
+            counter += 1  # Tăng số thứ tự chỉ khi thêm mục văn bản
+
+    # Đóng <ol> cuối cùng nếu đang mở
+    if not is_first_ol:
+        instructions_html += "</ol>"
 
     # Thay thế placeholder
     content = template.format(

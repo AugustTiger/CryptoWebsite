@@ -34,12 +34,8 @@
         ],
         "instructions": [
             "Truy cập <a href='https://boost.absinthe.network/recall/account'>boost.absinthe.network</a>, nhập ref code: 36fe7ef1",
-            {
-                "image": "recall/screenshot.jpg",
-                "alt": "Hướng dẫn Galxe Quest",
-                "caption": "Chú thích: Ảnh chụp màn hình quest Galxe"
-            },
-            "Hoàn thành các Quest Galxe, Zealy bên dưới"
+            "Hoàn thành các Quest Galxe, Zealy bên dưới",
+            "Tham gia Discord cày Role dự án anh em nhé!"
         ],
         "learn_more_url": "https://recall.network/"
     },
@@ -57,8 +53,7 @@
         "instructions": [
             "Truy cập <a href='https://signup.billions.network?rc=WROJALHT'>signup.billions.network</a>",
             "Hoàn thành các nhiệm vụ đơn giản",
-            "Truy cập cày role Discord dự án <a href='https://discord.com/invite/billions-ntwk'>Discord Billions</a>",
-            "------Update------"
+            "Truy cập cày role Discord dự án <a href='https://discord.com/invite/billions-ntwk'>Discord Billions</a>"
         ],
         "learn_more_url": "https://signup.billions.network?rc=WROJALHT"
     }
